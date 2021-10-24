@@ -5,4 +5,7 @@
     p[i].style.background = "black";
     p[i].style.color = "white";
   }
+  if (p.style.background != "black") {
+    alert("An error occurred.")
+  }
 })();
